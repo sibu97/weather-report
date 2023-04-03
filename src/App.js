@@ -108,7 +108,7 @@ const App = () => {
         <Navbar/>
        {/* ************** input section of the App ************* */}
         <div className='Input'>
-          <h1>Weather App</h1>
+         
           <div>
               <button className='Temp-change' onClick={unitChange}>{unit}</button>
               <button className='Location' onClick={unitChange}>Current Location</button>
